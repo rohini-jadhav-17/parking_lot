@@ -1,0 +1,31 @@
+Design a parking lot which can hold n cars of different color and different registration numbers.
+
+Requirements:
+1. Every car has been issued a ticket(slot no) for a spot and the spot has been assigned based on the nearest to the entry point.
+	-will allocate the nearest slot from entry gate.
+	
+2. Registration numbers of all cars of a particular Color.
+	-will display the registration number of the cars of white color 
+	
+3. Ticket number(slot no) in which a car with a given registration number is placed.
+	-will display the slot number for the car with registration number
+	
+4. Ticket numbers of all ticket where a car of a particular color is placed.
+	-will display slot numbers of the cars of white color 
+	
+-----------------Design steps-----------
+1. Two classes :
+	-ParkingLot() : Main class used to initialize the parking lot. Parking lot has maximum number of slots.
+	-Car() : new Car(NUMBER, COLOR) creates car object with registration number and color.
+
+2. ParkingLot() has following methods
+	- parkCar(carID, color) : Allocates nearest slot from entry gate to the car.
+	- leaveCar(carID) : Removes car in given slot in parking lot.
+	- getCarsWithSameColor
+	
+	- getSlotByCarNumber
+	
+	- getSlotsWithSameColorCar
+	
+	
+	
