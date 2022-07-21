@@ -16,7 +16,7 @@ Requirements:
 -----------------Design steps-----------
 1. Two classes :
 	-ParkingLot() : Main class used to initialize the parking lot. Parking lot has maximum number of slots.
-	-Car() : new Car(NUMBER, COLOR) creates car object with registration number and color.
+	-Car() : new Car(number, color) creates car object with registration number and color.
 
 2. ParkingLot() has following methods
 	- parkCar(carID, color) : Allocates nearest slot from entry gate to the car.
