@@ -14,18 +14,21 @@ Requirements:
 	-will display slot numbers of the cars of white color 
 	
 -----------------Design steps-----------
-1. Two classes :
-	-ParkingLot() : Main class used to initialize the parking lot. Parking lot has maximum number of slots.
-	-Car() : new Car(number, color) creates car object with registration number and color.
+1. Class :
+	-ParkingLot() : Class used to initialize the parking lot. Parking lot has maximum number of slots.
+					Parking lot has carDetails object updated when user gets the empty slot for parking
+	
 
 2. ParkingLot() has following methods
-	- parkCar(carID, color) : Allocates nearest slot from entry gate to the car.
-	- leaveCar(carID) : Removes car in given slot in parking lot.
-	- getCarsWithSameColor
+	- parkCar(carId, color) : Allocates nearest slot from entry gate to the car.
+
+	- leaveCar(carId) : Removes car in given slot in parking lot.
+
+	- getCarsWithSameColor(color) : return car registration numbers of same color cars.
 	
-	- getSlotByCarNumber
+	- getSlotByCarNumber(carId) : return slot no of given car registration no.
 	
-	- getSlotsWithSameColorCar
+	- getSlotsWithSameColorCar(color) : return slots of same color cars.
 	
 	
 	
